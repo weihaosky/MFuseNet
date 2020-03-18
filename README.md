@@ -3,7 +3,7 @@
 This is the official implementation code for MFuseNet. For technical details, please refer to :
 
 **MFuseNet: Robust Depth Estimation with Learned Multiscopic Fusion** <br />
-[Weihao Yuan](www.weihao-yuan.com), Rui Fan, Michael Yu Wang, Qifeng Chen <br />
+[Weihao Yuan](https://weihao-yuan.com), Rui Fan, Michael Yu Wang, Qifeng Chen <br />
 **ICRA2020, RA-L** <br />
 **[[Paper](https://ieeexplore.ieee.org/document/9000612)] [[Project Page](https://sites.google.com/view/multiscopic)]** <br />
 
@@ -33,17 +33,18 @@ If you find this code useful, please consider citing:
 
 
 ## Environment setup
-This code has been tested on Ubuntu 16.04, CUDA 9.0, GTX 1080 Ti GPUs.
+This code has been tested on Ubuntu 16.04, CUDA 9.0, two GTX 1080 Ti GPUs.
 
-### Dependencies:
+**Dependencies**:
 
 - Python2.7
 - PyTorch (0.4.0+)
 - torchvision (0.2.0+)
+- os, time, numpy, argparse, cv2, matplotlib, PIL
 
 
 ## Data Preparation
-The input of the network are the cost volumes obtained by MC-CNN. Please refer to [MC-CNN](https://github.com/jzbontar/mc-cnn) for computing the cost volumes. 
+The input of the network are the cost volumes obtained by cost calculation step in stereo matching algorithms. They can be calculated by block matching, semi-global matching, graph cuts, deep-network-based methods, etc. The default costs are obtained by MC-CNN. Please refer to [MC-CNN](https://github.com/jzbontar/mc-cnn) for computing the cost volumes. 
 
 The training data for three-view fusion are organized as follows:
 ```

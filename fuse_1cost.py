@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import os, argparse, pickle, math, time, cv2
+import os, argparse, time, cv2
 from PIL import Image
 
 from network import FuseNetwork
