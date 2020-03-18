@@ -9,7 +9,8 @@ This is the official implementation code for MFuseNet. For technical details, pl
 
 
 <div align="center">
-<img src="http://weihao-yuan.com/wp-content/uploads/2019/05/camera.jpg" width="300px" />
+<img src="http://weihao-yuan.com/wp-content/uploads/2019/05/camera.jpg" width="240px" />
+<img src="http://weihao-yuan.com/wp-content/uploads/mfusenet.jpg" width="400px" />
 </div>
 
 ### Bibtex
@@ -68,7 +69,7 @@ For five-view fusion, there are additional `view3.png` for the bottom view and `
 [Example data](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wyuanaa_connect_ust_hk/EhQpE6ypGlpKmdHTpJtZA_YBjvIyjVSEWJPifRvr2THmLQ?e=QNoVkf) are available here.
 
 
-## Train:
+## Train
 
 ```
 . train.sh
