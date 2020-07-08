@@ -18,9 +18,12 @@ If you find this code useful, please consider citing:
 
 ```
 @article{yuan2020mfusenet,
-  title={MFuseNet: Robust Depth Estimation with Learned Multiscopic Fusion},
+  title={MFuseNet: Robust Depth Estimation With Learned Multiscopic Fusion},
   author={Yuan, Weihao and Fan, Rui and Wang, Michael Yu and Chen, Qifeng},
   journal={IEEE Robotics and Automation Letters},
+  volume={5},
+  number={2},
+  pages={3113--3120},
   year={2020},
   publisher={IEEE}
 }
