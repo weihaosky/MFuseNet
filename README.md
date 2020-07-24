@@ -78,8 +78,20 @@ For five-view fusion, there are additional `view3.png` for the bottom view and `
 . train.sh
 ```
 
+## Pretrained Models
+### Five views, four costs fusion
 
+[Model_5view](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wyuanaa_connect_ust_hk/EUsbJB3OpOdNodJ9-UeEdDQBXbHROmlGu0NoC1HFT953Mg?e=1YkcAk)
 
+### Three views, two costs fusion
+
+[Model_3view](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wyuanaa_connect_ust_hk/EfPe4iQ9XH1GrMX6AnHnP78BBshv6rs2MnMpLzEVMHJeRQ?e=2E2xrG)
+
+Results on Middlebury 2006:
+
+| <sub> Model </sub> | <sub>AvgErr</sub> | <sub>RMS</sub> | <sub>Bad 0.5</sub> | <sub>Bad 1</sub> | <sub>Bad 2</sub> |
+|:-----------:|:----------:|:----------:|:------------:|:-------------:|:-------------:|
+| <sub> [Model_3view](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wyuanaa_connect_ust_hk/EfPe4iQ9XH1GrMX6AnHnP78BBshv6rs2MnMpLzEVMHJeRQ?e=2E2xrG) </sub> | <sub>0.250</sub> | <sub>1.036</sub> | <sub>4.08%</sub> | <sub>1.83%</sub> | <sub>1.15%</sub> |
 
 
 ## License
